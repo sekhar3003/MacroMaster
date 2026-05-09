@@ -8,14 +8,7 @@ Download
 Just download and double-click. No install required.
 ---
 What it does
-Records your mouse clicks in real time
-Replays them with smooth, natural movement
-Set custom delays between each action
-Loop sequences any number of times
-Supports clicks, right-clicks, drags, holds, and waits
-Saves and loads macros as `.json` files
-Sits on top of any window (always visible)
-Minimises to system tray
+Records and replays mouse actions with smooth movement, custom delays, looping, drag/hold support, JSON macro save/load, always-on-top visibility, and system tray minimization.
 ---
 How to use
 Key	Action
