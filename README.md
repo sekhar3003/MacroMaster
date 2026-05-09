@@ -12,6 +12,7 @@ Download Latest · Report Bug · Request Feature
 What is MacroMaster?
 MacroMaster is a compact overlay tool that sits on top of any application and lets you automate repetitive mouse actions. It supports recording real mouse input, replaying it with smooth movement, looping sequences, and fine-tuning individual actions — all from a minimal, always-visible interface.
 ---
+
 Features
 Record real mouse input live — clicks, right-clicks, drags, and holds
 Smooth mouse movement — natural easing so it looks human
@@ -24,12 +25,14 @@ Always on top — overlay stays visible over any app
 Global hotkeys — F6 (record), F7 (stop), F8 (play) work in any window
 Single EXE — no installation, no dependencies, just run it
 ---
+
 Download
 > **Quickest way: just download the EXE.**
 Go to Releases
 Download `MacroMaster.exe`
 Double-click to run — no install needed
 ---
+
 How to Use
 Basic workflow
 ```
@@ -38,6 +41,7 @@ Basic workflow
 3. Click Stop (or press F7) when done
 4. Click Play (or press F8) to replay
 ```
+
 Hotkeys
 Key	Action
 `F6`	Start / Stop recording
@@ -54,6 +58,7 @@ Click Export to save your sequence as a `.json` file
 Click Import to load a previously saved macro
 JSON files can be shared or backed up
 ---
+
 Action Types
 Type	What it does
 `click`	Left-click at position
@@ -69,6 +74,7 @@ Requirements
 ```
 Python 3.8 or higher
 ```
+
 Steps
 ```bash
 # 1. Clone the repo
@@ -81,6 +87,7 @@ pip install pynput pystray Pillow pyinstaller
 # 3. Run the builder
 BUILD_EXE.bat
 ```
+
 The `MacroMaster.exe` will appear in the root folder when done.
 Running without building
 ```bash
@@ -92,6 +99,7 @@ Requirements
 Windows 10 or 11 (64-bit)
 No installation required for the EXE
 ---
+
 FAQ
 Does it work in games?  
 It uses standard Windows input (`SendInput`) which works in most applications. Kernel-level anti-cheats (e.g. Vanguard) may detect it.
@@ -102,6 +110,7 @@ Automation tools that simulate input are sometimes flagged by heuristic scanners
 Can I run multiple macros?  
 One macro sequence at a time. Use the JSON export/import to switch between saved macros.
 ---
+
 License
 MIT License — see LICENSE for details.
 ---
