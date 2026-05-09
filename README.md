@@ -54,3 +54,5 @@ Then run `BUILD_EXE.bat` — the EXE will appear in the same folder.
 - Windows 10 / 11 only
 - If hotkeys don't work, run as Administrator
 - Antivirus may flag it — source code is fully visible here for review
+
+## In action - https://youtu.be/JI3tLujoRQw
