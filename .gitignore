@@ -1,0 +1,21 @@
+# Build output
+build/
+dist/
+*.spec
+
+# PyInstaller temp
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+macro_error.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Saved macros (user-specific)
+*.json
